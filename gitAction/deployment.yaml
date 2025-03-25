@@ -12,8 +12,8 @@ spec:
       labels:
         app: spring-app
     spec:
-      imagePullSecrets:
-        - name: docker-hub-secret
+#      imagePullSecrets:
+#        - name: docker-hub-secret
       containers:
         - name: spring-app
           image: hongtrieu04/spring-app:latest
